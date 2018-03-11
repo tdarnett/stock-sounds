@@ -15,7 +15,7 @@
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "",
-  "license": "ISC",
+  "license": "APACHE 2.0",
   "dependencies": {
     "axios": "^0.17.1",
     "concurrently": "^3.5.1",
