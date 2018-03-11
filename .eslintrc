@@ -1,0 +1,23 @@
+{
+    "env": {
+        "es6": true
+    },
+    "parserOptions": {
+        "sourceType": "module"
+    },
+    "extends": "airbnb",
+    "ecmaFeatures": {
+        "modules": true
+    },
+    "rules": {
+        "indent": ["error", 4],
+        "no-console": ["error", { "allow": ["log"] }]
+    },
+    "globals": {
+        "document": false,
+        "window": false,
+        "navigator": false,
+        "google": false,
+        "angular": false
+    }
+ }
